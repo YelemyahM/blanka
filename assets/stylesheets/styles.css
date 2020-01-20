@@ -21,7 +21,7 @@ footer {
   background-color: #444444;
   color: #888888;
   font: 12px Arial,
-  sans-serif;
+    sans-serif;
 }
 
 h1 {
@@ -137,4 +137,31 @@ Footer
 
 .mentions p:first-child {
   margin-right: 10px;
+}
+
+/*
+================================
+Logo
+================================
+*/
+
+.logo {
+  height: 380px;
+}
+
+.main-logo {
+  color: #62a6c9;
+  font: 122px/33px Jellyka CuttyCupcakes,
+    sans-serif;
+  margin: 0 auto;
+  width: max-content;
+  padding-top: 170px;
+}
+
+.logo-text {
+  font: 11px/33px Arial,
+    sans-serif;
+  color: #aaaaaa;
+  margin: 0 auto;
+  width: max-content;
 }
