@@ -17,6 +17,13 @@ header {
     sans-serif;
 }
 
+footer {
+  background-color: #444444;
+  color: #888888;
+  font: 12px Arial,
+  sans-serif;
+}
+
 h1 {
   font-family: "Arial", serif;
 }
@@ -105,4 +112,28 @@ Header
 
 .search-bar button:hover {
   color: black;
+}
+
+/*
+================================
+Footer
+================================
+*/
+
+.footer {
+  height: 60px;
+}
+
+.mentions {
+  display: flex;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.mentions strong {
+  color: #fff;
+}
+
+.mentions p:first-child {
+  margin-right: 10px;
 }
