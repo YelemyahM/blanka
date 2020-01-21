@@ -5,59 +5,59 @@ Bases
 */
 
 body {
-	background-color: #fff;
-	margin: 0;
-	padding: 0;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-	background-color: #444444;
-	color: #888888;
-	font: bold 14px Arial,
-		sans-serif;
+  background-color: #444444;
+  color: #888888;
+  font: bold 14px Arial,
+    sans-serif;
 }
 
 footer {
-	background-color: #444444;
-	color: #888888;
-	font: 12px Arial,
-		sans-serif;
+  background-color: #444444;
+  color: #888888;
+  font: 12px Arial,
+    sans-serif;
 }
 
 h1 {
-	font: bold 48px Arial, serif;
-	color: #333333;
-	width: max-content;
-	margin: 0 auto;
+  font: bold 48px Arial, serif;
+  color: #333333;
+  width: max-content;
+  margin: 0 auto;
 }
 
 h2 {
-	font-family: "Arial", serif;
-	text-transform: uppercase;
-	text-align: center;
-	color: #bbbbbb;
-	font-size: 9px;
-	margin: 60px 0;
+  font-family: "Arial", serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #bbbbbb;
+  font-size: 9px;
+  margin: 60px 0;
 }
 
 h3 {
-	font: bold 24px Arial,
-		sans-serif;
-	color: #444444;
-	margin: 0;
+  font: bold 24px Arial,
+    sans-serif;
+  color: #444444;
+  margin: 0;
 }
 
 li {
-	list-style: none;
+  list-style: none;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 strong {
-	font-weight: normal;
+  font-weight: normal;
 }
 
 /*
@@ -67,9 +67,9 @@ Grid
 */
 
 .l-container {
-	width: 960px;
-	padding: 0 10px;
-	margin: 0 auto;
+  width: 960px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
 
 /*
@@ -79,51 +79,51 @@ Header
 */
 
 .header {
-	height: 60px;
+  height: 60px;
 }
 
 .header-menu {
-	padding-top: 20px;
-	height: 0;
-	display: flex;
+  padding-top: 20px;
+  height: 0;
+  display: flex;
 }
 
 .menu-link-hover {
-	margin-right: 15px;
+  margin-right: 15px;
 }
 
 .header-menu-item:hover {
-	color: #fff;
+  color: #fff;
 }
 
 .header-menu-item:hover::after {
-	display: block;
-	position: relative;
-	text-align: center;
-	content: "\25B2";
-	color: #fff;
-	margin-top: 13px;
+  display: block;
+  position: relative;
+  text-align: center;
+  content: "\25B2";
+  color: #fff;
+  margin-top: 13px;
 }
 
 .search-bar {
-	display: flex;
-	position: relative;
-	float: right;
+  display: flex;
+  position: relative;
+  float: right;
 }
 
 .search-bar input[type=text] {
-	height: 23px;
-	border: none;
+  height: 23px;
+  border: none;
 }
 
 .search-bar button {
-	color: #a08d8d;
-	border: none;
-	cursor: pointer;
+  color: #a08d8d;
+  border: none;
+  cursor: pointer;
 }
 
 .search-bar button:hover {
-	color: black;
+  color: black;
 }
 
 /*
@@ -133,22 +133,22 @@ Footer
 */
 
 .footer {
-	height: 60px;
+  height: 60px;
 }
 
 .mentions {
-	display: flex;
-	margin: 0 auto;
-	width: max-content;
-	padding-top: 12px;
+  display: flex;
+  margin: 0 auto;
+  width: max-content;
+  padding-top: 12px;
 }
 
 .mentions strong {
-	color: #fff;
+  color: #fff;
 }
 
 .mentions p:first-child {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 
 /*
@@ -158,24 +158,24 @@ Logo
 */
 
 .logo {
-	height: 380px;
+  height: 380px;
 }
 
 .main-logo {
-	color: #62a6c9;
-	font: 122px/33px Jellyka CuttyCupcakes,
-		sans-serif;
-	margin: 0 auto;
-	width: max-content;
-	padding-top: 170px;
+  color: #62a6c9;
+  font: 122px/33px Jellyka CuttyCupcakes,
+    sans-serif;
+  margin: 0 auto;
+  width: max-content;
+  padding-top: 170px;
 }
 
 .logo-text {
-	font: 11px/33px Arial,
-		sans-serif;
-	color: #aaaaaa;
-	margin: 0 auto;
-	width: max-content;
+  font: 11px/33px Arial,
+    sans-serif;
+  color: #aaaaaa;
+  margin: 0 auto;
+  width: max-content;
 }
 
 /*
@@ -185,13 +185,13 @@ About us
 */
 
 .description p {
-	color: #888888;
-	font: 24px/36px Arial, sans-serif;
-	text-align: center;
+  color: #888888;
+  font: 24px/36px Arial, sans-serif;
+  text-align: center;
 }
 
 .description strong {
-	color: #62a6c9;
+  color: #62a6c9;
 }
 
 /*
@@ -201,61 +201,61 @@ Works
 */
 
 .works {
-	display: flex;
+  display: flex;
 }
 
 .quarter {
-	width: 223px;
-	height: 164px;
-	position: relative;
-	margin-right: 20px;
-	background-color: #ffffff;
-	border: 1px solid #cfcfcf;
+  width: 223px;
+  height: 164px;
+  position: relative;
+  margin-right: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cfcfcf;
 }
 
 .quarter:before,
 .quarter:after {
-	z-index: -1;
-	position: absolute;
-	content: "";
-	bottom: 11px;
-	left: 11px;
-	width: 45%;
-	top: 80%;
-	max-width: 300px;
-	background: #777;
-	-webkit-box-shadow: 0 15px 10px grey;
-	-moz-box-shadow: 0 15px 10px #777;
-	box-shadow: 0 15px 10px #777;
-	-webkit-transform: rotate(-3deg);
-	-moz-transform: rotate(-3deg);
-	-o-transform: rotate(-3deg);
-	-ms-transform: rotate(-3deg);
-	transform: rotate(-3deg);
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 11px;
+  left: 11px;
+  width: 45%;
+  top: 80%;
+  max-width: 300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px grey;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
 }
 
 .quarter:after {
-	-webkit-transform: rotate(3deg);
-	-moz-transform: rotate(3deg);
-	-o-transform: rotate(3deg);
-	-ms-transform: rotate(3deg);
-	transform: rotate(3deg);
-	right: 10px;
-	left: auto;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
 }
 
 
 .inner-quarter {
-	position: inherit;
-	top: 10px;
-	left: 10px;
-	width: 200px;
-	height: 145px;
-	background-color: #eeeeee;
+  position: inherit;
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  height: 145px;
+  background-color: #eeeeee;
 }
 
 .last-quarter {
-	margin: 0;
+  margin: 0;
 }
 
 /*
@@ -265,36 +265,95 @@ What we do
 */
 
 .work-explanation {
-	display: flex;
-	margin-top: -15px;
+  display: flex;
+  margin-top: -15px;
 
 }
 
 .what {
-	margin-right: 20px;
+  margin-right: 20px;
 }
 
 .what:last-child {
-	margin: 0;
+  margin: 0;
 }
 
 .what p {
-	font: 12px/22px Arial, sans-serif;
-	color: #888888;
+  font: 12px/22px Arial, sans-serif;
+  color: #888888;
 }
 
 .what a {
-	font: bold 13px/30px Arial,
-		sans-serif;
-	color: #62a6c9;
+  font: bold 13px/30px Arial,
+    sans-serif;
+  color: #62a6c9;
 }
 
 .what h3 {
-	margin-left: 30px;
+  margin-left: 30px;
 }
 
 .work-explanation i {
-	color: #62a6c9;
-	position: relative;
-	top: 24px;
+  color: #62a6c9;
+  position: relative;
+  top: 24px;
+}
+
+/*
+================================
+Blog
+================================
+*/
+
+.blog {
+  display: flex;
+  margin-bottom: 110px;
+}
+
+.in-blog {
+  margin-right: 20px;
+}
+
+.in-blog:last-child {
+  margin: 0;
+}
+
+.in-blog h3 {
+  font: bold 18px Arial, sans-serif;
+  color: #444444;
+  margin-bottom: 20px;
+}
+
+.in-blog h3:hover {
+  color: #62a6c9;
+  cursor: pointer;
+}
+
+.in-blog p {
+  font: 12px/18px Arial, sans-serif;
+  color: #999999;
+  margin: 0;
+}
+
+.date {
+  font: 11px/18px Arial, sans-serif;
+  color: #cccccc;
+  display: inherit;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.twitter {
+  font: 11px/18px Arial, sans-serif;
+  color: #999999;
+}
+
+.in-blog strong,
+.blog i {
+  color: #62a6c9;
+}
+
+.blog i {
+  margin-right: 12px;
+  margin-top: 5px;
 }
