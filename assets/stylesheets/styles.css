@@ -54,6 +54,10 @@ a {
   text-decoration: none;
 }
 
+strong {
+  font-weight: normal;
+}
+
 /*
 ================================
 Grid
@@ -134,7 +138,7 @@ Footer
   display: flex;
   margin: 0 auto;
   width: max-content;
-  padding-top: 10px;
+  padding-top: 12px;
 }
 
 .mentions strong {
@@ -186,4 +190,68 @@ About us
 
 .description strong {
   color: #62a6c9;
+}
+
+/*
+================================
+Works
+================================
+*/
+
+.works {
+  display: flex;
+}
+
+.quarter {
+  width: 223px;
+  height: 164px;
+  position: relative;
+  margin-right: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cfcfcf;
+}
+
+.quarter:before,
+.quarter:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 11px;
+  left: 11px;
+  width: 45%;
+  top: 80%;
+  max-width: 300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px grey;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.quarter:after {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+
+.inner-quarter {
+  position: inherit;
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  height: 145px;
+  background-color: #eeeeee;
+}
+
+.last-quarter {
+  margin: 0;
 }
