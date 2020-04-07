@@ -60,6 +60,13 @@ strong {
   font-weight: normal;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+  outline-offset: 0px !important;
+  outline: none !important;
+}
+
 /*
 ================================
 Grid
